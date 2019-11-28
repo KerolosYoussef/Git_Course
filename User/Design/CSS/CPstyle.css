@@ -1,0 +1,144 @@
+/* Main Rules */
+body{
+    background-color:#E5e5e5;
+}
+.fa {
+    margin-right: 3px;
+}
+h1{
+    font-size:55px;
+    font-weight: bold;
+    color:#666;
+    margin:40px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* End Rules */
+/* Start Header Navbar */
+.upper-nav{
+    height: 38px;
+    background-color:#FFF;
+}
+.site-name{
+    font-size: 18px;
+    margin:10px 0 0 25px;
+    color:#000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.site-name::first-letter{
+    color:#116655
+}
+.site-name:hover{
+    text-decoration: none;
+    color:#666;
+    cursor: pointer;
+}
+.upper-nav .login{
+    text-decoration: none;
+    color:#FFF;
+    font-weight: bold;
+    margin:10px 15px;
+}
+.upper-nav .log{
+    padding:7px;
+    background-color:#15816c;
+    color:#000;
+    border-radius: 5px;
+    color:#FFF;
+}
+.upper-nav .log:active{
+    background-color:#116655;
+}
+.upper-nav .username-info{
+    margin:8px;
+}
+.upper-nav .username-info span{
+    margin:8px;
+}
+/* End Header Navbar */
+/* Start BootStrap Design */
+.navbar
+{
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+.navbar-inverse {
+    background-color:#000;
+    border-color: #000;
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a
+{
+    color:rgb(190, 184, 184);
+
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav>li>a:hover{
+    color:#FFF;
+}
+.navbar-brand{
+    font-size: 16px;
+}
+
+/* End BootStrap Design */
+
+/* Start Categories */ 
+.item-box{
+    position: relative;
+    
+}
+
+.item-box .price-tag{
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    min-width: 57px;
+    min-height: 18px;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+/* End Categories */
+/* Start Login Page */
+
+.login-page .login-form,.singup-page .sign-form{
+    max-width:520px;
+    margin:0 auto;
+}
+.astr-fix {
+    position: relative;
+}
+.login-page .login-form input,.singup-page .sign-form input{
+    margin-bottom:10px;
+}
+.login-page .asterisk , .singup-page .asterisk{
+    position: absolute;
+    top: 4px;
+    right: 15px;
+    font-size: 30px;
+    color: #ca1e1e;
+}
+.singup-page .error {
+    margin:8px 0 !important;
+    height:42px;
+    padding:10px;
+    font-weight: bold;
+    display: none;
+}
+
+.sign-form{
+    display:none;
+    
+}
+.login-signup h1 span{
+    cursor: pointer;
+    color:#66666659;
+}
+.login-signup .x-active{
+    color:#2178c2;
+}
+.login-signup .y-active{
+    color:#5CB85C;
+}
+
+/* End Login Page */ 
